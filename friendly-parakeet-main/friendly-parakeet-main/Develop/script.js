@@ -6,22 +6,25 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 
-let length = prompt("How many characters would you like your Password to be?")
+let length = prompt("How many characters would you like your Password to be?","Minimum 8 Characters and Maximum 128 Characters")
 
-let numbers = prompt("Would you like the password to contain numbers?")
+let numbers = prompt("Would you like the password to contain numbers?","Yes or No")
 
-let letters = prompt("Would you like your password to contain letters?")
+let letters = prompt("Would you like your password to contain letters?","Yes or No")
 
-let lowerCase = prompt("Would you like lower-case in your password?")
+let lowerCase = prompt("Would you like lower-case in your password?","Yes or No")
 
-let upperCase = prompt("would you like upper-case in your password?")
+let upperCase = prompt("would you like upper-case in your password?","Yes or No")
 
-let specialCharacters = prompt("Would you like special characters in your password?")
+let specialCharacters = prompt("Would you like special characters in your password?","Yes or No")
+
+//function lengthGen(){
+ // if (length >=8 || length <=128)
+ // length = length
+
 
 function generatePassword(){
-
-
-
+  
 
 
 }
