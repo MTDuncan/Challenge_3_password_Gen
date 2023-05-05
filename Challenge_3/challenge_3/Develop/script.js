@@ -18,10 +18,6 @@ let upperCase = prompt("would you like upper-case in your password?","Yes or No"
 
 let specialCharacters = prompt("Would you like special characters in your password?","Yes or No")
 
-//function lengthGen(){
- // if (length >=8 || length <=128)
- // length = length
-
 
 function generatePassword(){
   
